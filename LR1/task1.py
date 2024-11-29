@@ -12,7 +12,6 @@ def calculate_e(epsilon):
     e = new_e
     x /= 2
 
-# Пример использования
 epsilon = float(input("epsilon = " ))
 result = calculate_e(epsilon)
 print("Приближенное значение e с точностью", epsilon, "равно:", result)

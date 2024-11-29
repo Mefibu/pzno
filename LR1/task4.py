@@ -10,8 +10,7 @@ def count_words_by_length(filename, min_length=4, max_length=10):
 
   return total_words, len(short_words), len(long_words)
 
-# Пример использования:
-filename = "LR1/text2.txt"  # Замените на имя вашего файла
+filename = "LR1/text1.txt"  
 min_length = 4  # Указываем минимальную длину слова
 max_length = 10  # Указываем максимальную длину слова
 total, short, long = count_words_by_length(filename, min_length, max_length)
